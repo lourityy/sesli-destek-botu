@@ -1,4 +1,4 @@
-﻿const { EmbedBuilder, ButtonStyle, Client, GatewayIntentBits, ChannelType, Partials, ActionRowBuilder, ButtonBuilder } = require("discord.js");
+const { EmbedBuilder, ButtonStyle, Client, GatewayIntentBits, ChannelType, Partials, ActionRowBuilder, ButtonBuilder } = require("discord.js");
 const { findOnlineMembers } = require('./lib');
 const client = new Client({ intents: Object.values(GatewayIntentBits), shards: "auto", partials: [Partials.Message, Partials.Channel, Partials.GuildMember, Partials.Reaction, Partials.GuildScheduledEvent, Partials.User, Partials.ThreadMember] });
 const { joinVoiceChannel, createAudioPlayer, createAudioResource, NoSubscriberBehavior } = require('@discordjs/voice');
@@ -107,7 +107,7 @@ client.on("voiceStateUpdate", async (newState, oldState) => {
                 .setColor("DarkButNotBlack")
                 .setAuthor({ name: `${member.user.username}`, iconURL: member.user.displayAvatarURL() })
                 .setDescription("```ansi\n[2;34mDestek almak istediğiniz konunun butonuna tıklayınız.[0m [2;35mİşlemi iptal etmek için ses kanalından ayrılabilirsiniz.[0m```")
-                .setFooter({ text: "Spcomtr © 2023", iconURL: member.guild.iconURL() })
+                .setFooter({ text: "Lourity © 2025", iconURL: member.guild.iconURL() })
                 .setTimestamp()
 
             member.send({ embeds: [ticket_button], components: [tickets_row] }).then((msg) => {
@@ -232,7 +232,7 @@ client.on("interactionCreate", async interaction => {
             .setColor("DarkButNotBlack")
             .setAuthor({ name: `${interaction.user.username}`, iconURL: interaction.user.displayAvatarURL() })
             .setDescription("```ansi\n[2;34mButonları kullanarak sipariş id'nizi girin.[0m [2;35mİşlemi iptal etmek için ses kanalından ayrılabilirsiniz.[0m```")
-            .setFooter({ text: "Spcomtr © 2023", iconURL: interaction.user.displayAvatarURL() })
+            .setFooter({ text: "Lourity © 2025", iconURL: interaction.user.displayAvatarURL() })
             .setTimestamp()
 
         const connection = joinVoiceChannel({
@@ -258,7 +258,7 @@ client.on("interactionCreate", async interaction => {
             .setColor("DarkButNotBlack")
             .setAuthor({ name: `${interaction.user.username}`, iconURL: interaction.user.displayAvatarURL() })
             .setDescription("```ansi\n[2;34mTelafi yaptırmak istediğiniz sipariş id'lerini giriniz.[0m [2;35mİşlemi iptal etmek için ses kanalından ayrılabilirsiniz.[0m```")
-            .setFooter({ text: "Spcomtr © 2023", iconURL: interaction.user.displayAvatarURL() })
+            .setFooter({ text: "Lourity © 2025", iconURL: interaction.user.displayAvatarURL() })
             .setTimestamp()
 
         const connection = joinVoiceChannel({
@@ -314,7 +314,7 @@ client.on("interactionCreate", async interaction => {
                     .setAuthor({ name: `${interaction.user.username}`, iconURL: interaction.user.displayAvatarURL() })
                     .setDescription(`\`\`\`ansi\n[2;33m[2;32m${interaction.user.tag} adlı üye telafi için talep açtı.[0m[2;33m[0m\`\`\`\n> #️⃣ Girilen Mesaj:\n\`\`\`ansi\n[2;35m[2;36m${problem}[0m[2;35m[0m\`\`\``)
                     .setThumbnail(interaction.user.displayAvatarURL())
-                    .setFooter({ text: "Spcomtr © 2023", iconURL: interaction.user.displayAvatarURL() })
+                    .setFooter({ text: "Lourity © 2025", iconURL: interaction.user.displayAvatarURL() })
                     .setTimestamp()
 
                 const row = new ActionRowBuilder()
@@ -397,7 +397,7 @@ client.on("interactionCreate", async interaction => {
             .setColor("DarkButNotBlack")
             .setAuthor({ name: `${interaction.user.username}`, iconURL: interaction.user.displayAvatarURL() })
             .setDescription("```ansi\n[2;34mAşağıdaki butonları kullanarak altbayilik hakkında bilgi alabilirsiniz.[0m [2;35mİşlemi iptal etmek için ses kanalından ayrılabilirsiniz.[0m```\n[**Altbayilik sayfası ↗️**](https://seninpanelin.com.tr/child-panels)")
-            .setFooter({ text: "Spcomtr © 2023", iconURL: interaction.user.displayAvatarURL() })
+            .setFooter({ text: "Lourity © 2025", iconURL: interaction.user.displayAvatarURL() })
             .setTimestamp()
 
         const row = new ActionRowBuilder()
