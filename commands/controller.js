@@ -3,7 +3,7 @@ const { joinVoiceChannel, createAudioPlayer, NoSubscriberBehavior } = require('@
 const config = require("../config.json");
 // lourity
 module.exports = {
-    name: "botu",
+    name: "voice",
     description: 'Destek botunu ses kanalına sokarsınız.',
     type: 1,
     options: [{
