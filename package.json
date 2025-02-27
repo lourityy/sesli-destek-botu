@@ -1,0 +1,26 @@
+{
+  "name": "sesli-destek-botu",
+  "version": "9.9.9",
+  "description": "Discord V14 Gelişmiş Sesli Destek Botu",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Lourity",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/rest": "^1.1.0",
+    "@discordjs/voice": "^0.16.0",
+    "croxydb": "^0.0.7",
+    "discord-api-types": "^0.37.5",
+    "discord.js": "^14.3.0",
+    "ffmpeg-static": "^5.1.0",
+    "moment": "^2.29.4",
+    "moment-duration-format": "^2.3.2",
+    "os": "^0.1.2",
+    "request": "^2.88.2"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}

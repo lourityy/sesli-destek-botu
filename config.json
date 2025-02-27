@@ -1,0 +1,9 @@
+{
+    "TOKEN": "discord_bot_token",
+    "OWNER": "owner_id",
+    "VOİCE": "botun_girecegi_ses_kanali_id",
+    "GUİLD": "sunucu_id",
+    "LOG": "log_kanali_id",
+    "ROLE": "yetkili_rolu_id",
+    "REMESSAGE": "yanitlandi_mesajlarinin_gonderilecegi_kanal_id"
+}
