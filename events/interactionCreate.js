@@ -343,7 +343,7 @@ module.exports = async (client, interaction) => {
       .setColor("DarkButNotBlack")
       .setAuthor({ name: `${interaction.user.username}`, iconURL: interaction.user.displayAvatarURL() })
       .setDescription("```ansi\n[2;32m[2;34mSorununuzu kısaca açıklayın, ve buraya gönderin.[0m[2;32m[0m [2;35mİşlemi iptal etmek için ses kanalından ayrılabilirsiniz.[0m```")
-      .setFooter({ text: "Spcomtr © 2023", iconURL: interaction.user.displayAvatarURL() })
+      .setFooter({ text: "Lourity © 2025", iconURL: interaction.user.displayAvatarURL() })
       .setTimestamp()
 
     interaction.update({ embeds: [description_embed], components: [] })
@@ -385,7 +385,7 @@ module.exports = async (client, interaction) => {
           .setAuthor({ name: `${interaction.user.username}`, iconURL: interaction.user.displayAvatarURL() })
           .setDescription(`\`\`\`ansi\n[2;33m[2;32m${interaction.user.tag} adlı üye sipariş sorunu talebi açtı.[0m[2;33m[0m\`\`\`\n> #️⃣ Sipariş İD:\n\`\`\`ansi\n[2;35m[2;36m${interaction.message.content}[0m[2;35m[0m\`\`\`\n> 💬 Sorun Açıklaması:\n\`\`\`ansi\n[2;31m${problem}[0m\`\`\``)
           .setThumbnail(interaction.user.displayAvatarURL())
-          .setFooter({ text: "Spcomtr © 2023", iconURL: interaction.user.displayAvatarURL() })
+          .setFooter({ text: "Lourity © 2025", iconURL: interaction.user.displayAvatarURL() })
           .setTimestamp()
 
         const row = new ActionRowBuilder()
@@ -702,7 +702,7 @@ module.exports = async (client, interaction) => {
       .setColor("DarkButNotBlack")
       .setAuthor({ name: `${interaction.user.username}`, iconURL: interaction.user.displayAvatarURL() })
       .setDescription("```ansi\n[2;34mLütfen sorununuzu kısaca açıklayın.[0m [2;35mİşlemi iptal etmek için ses kanalından ayrılabilirsiniz.[0m```")
-      .setFooter({ text: "Spcomtr © 2023", iconURL: interaction.user.displayAvatarURL() })
+      .setFooter({ text: "Lourity © 2025", iconURL: interaction.user.displayAvatarURL() })
       .setTimestamp()
 
     interaction.update({ embeds: [other_problems_embed], components: [] })
@@ -742,7 +742,7 @@ module.exports = async (client, interaction) => {
           .setAuthor({ name: `${interaction.user.username}`, iconURL: interaction.user.displayAvatarURL() })
           .setDescription(`\`\`\`ansi\n[2;33m[2;32m${interaction.user.tag} adlı üye talep açtı.[0m[2;33m[0m\`\`\`\n> 💬 Girilen Mesaj:\n\`\`\`ansi\n[2;31m${problem}[0m\`\`\``)
           .setThumbnail(interaction.user.displayAvatarURL())
-          .setFooter({ text: "Spcomtr © 2023", iconURL: interaction.user.displayAvatarURL() })
+          .setFooter({ text: "Lourity © 2025", iconURL: interaction.user.displayAvatarURL() })
           .setTimestamp()
 
         const row = new ActionRowBuilder()
