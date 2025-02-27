@@ -1,4 +1,4 @@
-﻿const { EmbedBuilder } = require("discord.js");
+const { EmbedBuilder } = require("discord.js");
 const { joinVoiceChannel, createAudioPlayer, NoSubscriberBehavior } = require('@discordjs/voice');
 const config = require("../config.json");
 // lourity
@@ -17,7 +17,7 @@ module.exports = {
             .setColor("Red")
             .setAuthor({ name: `${interaction.user.username}`, iconURL: interaction.user.displayAvatarURL() })
             .setDescription("```ansi\n[2;35mYeterli yetkiniz bulunmamakta![0m```")
-            .setFooter({ text: "Spcomtr © 2023", iconURL: interaction.guild.iconURL() })
+            .setFooter({ text: "Lourity © 2025", iconURL: interaction.guild.iconURL() })
             .setTimestamp()
 
         if (!interaction.user.id === config.OWNER) return interaction.reply({ embeds: [embed], ephemeral: true })
